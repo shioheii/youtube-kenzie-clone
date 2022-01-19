@@ -15,7 +15,7 @@
 Esse projeto foi desenvolvido por mim, enquanto participava do evento online: Maratona de Programação - V Edição, realizado pela [Kenzie Academy](https://kenzie.com.br/).
 
 ## Sobre o projeto:
-A proposta do projeto era desenvolver o clone da página do canal da Kenzie, no [Youtube](https://www.youtube.com/). por não ter estudado muito as linguagens do front-end, fui fazendo passo a passo, conforme os professores iam avançando no projeto, me atentando aos novos conceitos.
+A proposta do projeto era desenvolver o clone da página do canal da Kenzie, no [Youtube](https://www.youtube.com/). Por não ter muitos conhecimentos ainda sobre as linguagens do front-end, fui fazendo passo a passo, conforme os professores iam avançando no projeto, me atentando aos novos conceitos.
 
 ## O que aprendi?
 Pude ver na prática a estruturação de uma página na internet, bem como questões de sintaxe e boas práticas no HTML, CSS e JavaScript. Compreendi que o JS é uma excelente ferramenta, e tenho interesse de estudar em breve, questões como trabalhar com o DOM, e quem sabe com o NodeJS, futuramente.
