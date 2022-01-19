@@ -1,23 +1,16 @@
 # Projeto Clone do Youtube da Kenzie
 <a href="https://github.com/shioheii">
   <img alt="Linguagens" src="https://img.shields.io/badge/autor-Bruno%20Shiohei%20Kinoshita%20do%20Nascimento-DB3833">
-</a> <!--
-<a href="#">
-  <img alt="Linguagens" src="https://img.shields.io/github/stars/shioheii/youtube-kenzie-clone
-?color=DB3833">
+</a> 
+<a href="https://github.com/shioheii">
+  <img alt="code-size" src="https://img.shields.io/github/languages/code-size/shioheii/youtube-kenzie-clone?color=DB3833">
+</a> 
+<a href="https://github.com/shioheii">
+  <img alt="last-commit" src="https://img.shields.io/github/last-commit/shioheii/youtube-kenzie-clone?color=DB3833">
 </a>
-<a href="#">
-  <img alt="Linguagens" src="https://img.shields.io/github/last-commit/shioheii/youtube-kenzie-clone
-?color=DB3833">
-</a>
-<a href="#">
-  <img alt="Linguagens" src="https://img.shields.io/github/languages/count/shioheii/youtube-kenzie-clone
-?color=DB3833">
-</a>
-<a href="#">
-  <img alt="Linguagens" src="https://img.shields.io/github/languages/code-size/shioheii/youtube-kenzie-clone
-?color=DB3833">
-</a> --> <br />
+<a href="https://github.com/shioheii">
+  <img alt="stars" src="https://img.shields.io/github/stars/shioheii/youtube-kenzie-clone?color=DB3833">
+</a> <br />
 
 Esse projeto foi desenvolvido por mim, enquanto participava do evento online: Maratona de Programação - V Edição, realizado pela [Kenzie Academy](https://kenzie.com.br/).
 
@@ -41,7 +34,7 @@ Para executar este projeto no seu computador, basta clicar em "Code" e depois em
 
 Ou clone o repositório pelo link:
 ```bash
-$ git 
+$ git https://github.com/shioheii/youtube-kenzie-clone.git
 ```
 
 Então abra a página "index.html" no navegador.
