@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <!-- CABEÇA -> CONFIGURAÇÕES -->
+  <head>
+    <meta charset="UTF-8" />
+    <title>Youtube - Clone</title>
+
+    <link rel="stylesheet" type="text/css" href="./src/css/reset.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./src/css/style.css" />
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <!-- Logo do Youtube -->
+      <div class="coluna">
+        <figure>
+          <img src="./src/img/logo.png" alt="Youtube - Kenzie" />
+        </figure>
+      </div>
+
+      <!-- Barra de pesquisa -->
+      <div class="coluna">
+        <div class="formularioPesquisa">
+          <input type="text" placeholder="Pesquisar" />
+          <button>
+            <img src="./src/img/pesquisa.svg" alt="Botão pesquisar" />
+          </button>
+        </div>
+      </div>
+
+      <!-- Usuário -->
+      <div class="coluna">
+        <figure class="imagemUsuario">
+          <img src="./src/img/user.png" alt="Imagem Usuário" />
+        </figure>
+      </div>
+    </header>
+
+    <main>
+      <div class="destaqueCanal"></div>
+
+      <section class="secaoCanal">
+        <div class="container">
+          <div class="detalheCanal">
+            <figure>
+              <img src="./src/img/logocanal.jpg" alt="Kenzie Academy Brasil" />
+            </figure>
+
+            <div class="detalheCanal__info">
+              <h1>Kenzie Academy Brasil</h1>
+              <p>88,5 mil inscritos</p>
+            </div>
+          </div>
+
+          <nav class="menusNavegacaoCanal">
+            <ul>
+              <li>
+                <a href="#">Inicío</a>
+              </li>
+              <li>
+                <a href="#">Vídeos</a>
+              </li>
+              <li>
+                <a href="#">Playlists</a>
+              </li>
+              <li>
+                <a href="#">Comunidade</a>
+              </li>
+              <li>
+                <a href="#">Canais</a>
+              </li>
+              <li>
+                <a href="#">Sobre</a>
+              </li>
+              <li>
+                <button>
+                  <img src="./src/img/pesquisa.svg" alt="Botão de pesquisa" />
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <div class="containerVideosDestaques">
+        <!--  Vídeos destaques do canal - esquerda -->
+        <div class="coluna coluna--esquerda">
+          <section class="secaoVideosDestaque">
+            <h2>Conheça mais sobre a Kenzie Academy Brasil</h2>
+
+            <ul class="secaoVideosDestaques__lista"></ul>
+          </section>
+        </div>
+
+        <!--  Vídeos adicionados na fila de reprodução - direita -->
+        <div class="coluna coluna--direita">
+          <section class="secaoAdicionarAFila">
+            <header class="secaoAdicionarAfila__cabecalho">
+              <h2>Fila de reprodução</h2>
+              <p>Kenzie Academy Brasil</p>
+            </header>
+
+            <ul class="secaoAdicionarAFila__lista"></ul>
+          </section>
+        </div>
+      </div>
+
+      <!-- Reproduzir todos os vídeos - Parte de baixo -->
+      <section class="secaoTodosVideos">
+        <div class="container">
+          <h2><img src="./src/img/play.svg" alt="Play" /> Reproduzir todos</h2>
+
+          <ul class="secaoTodosVideos__lista"></ul>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
